@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "sst bind vitest run",
     "dev": "sst dev",
     "build": "sst build",
     "deploy": "sst deploy",
@@ -12,11 +13,12 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "^2.42.0",
+    "@tsconfig/node18": "^18.2.4",
     "aws-cdk-lib": "2.142.1",
     "constructs": "10.3.0",
+    "sst": "^2.42.0",
     "typescript": "^5.4.5",
-    "@tsconfig/node18": "^18.2.4"
+    "vitest": "^1.6.0"
   },
   "workspaces": [
     "packages/*"
