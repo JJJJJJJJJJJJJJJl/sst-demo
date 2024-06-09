@@ -1,4 +1,10 @@
 const config = {
+    // Stripe pub key
+    STRIPE_KEY: "pk_test_51PLMRDP0xmHLtGH9UyraXAcFceXqFAHnTCguQUBDQKBV2TRm4EbKXFaUIcwRWbGxowK10tW9e2hASVh1okNSMtih00aMWpBo4t",
+
+    // Frontend config
+    MAX_ATTACHMENT_SIZE: 5000000,
+
     // Backend config
     s3: {
         REGION: import.meta.env.VITE_REGION,
