@@ -8,7 +8,6 @@ import LoaderButton from "../components/LoaderButton";
 import { Auth } from "aws-amplify";
 import { onError } from "../lib/errorLib";
 import { ISignUpResult } from "amazon-cognito-identity-js";
-import { UsernameExistsException } from "@aws-sdk/client-cognito-identity-provider";
 
 import "./Signup.css";
 
